@@ -34,3 +34,25 @@ body {
   font-family: 'chunkfiveroman', sans-serif;
   font-size:26px;
 }
+
+.pagination {
+  background: white;
+  cursor: default;
+  height: 30px;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  color: #E3E85A;
+
+  a, span, em {
+    padding: 0.2em 0.5em;
+    display: block;
+    float: left;
+    margin-right: 1px;
+    color: #000000;
+  }
+}
+
+  .disabled {
+    display: none;
+  }
+
+  
