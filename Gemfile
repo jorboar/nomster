@@ -39,6 +39,10 @@ gem "font-awesome-rails"
 
 gem 'devise'
 
+gem "geocoder"
+
+gem "figaro"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
