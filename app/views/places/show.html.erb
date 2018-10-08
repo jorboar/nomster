@@ -34,6 +34,15 @@
 
 
 
+    <% @place.photos.each do |photo| %>
+      <%= image_tag photo.picture, size: "250" %>
+      <div class="clear"></div>
+      <%= photo.caption %>
+    <% end %>
+
+
+
+
       <div class="float-right">
       
         <% if current_user && current_user == @place.user %>
@@ -173,3 +182,9 @@
     </div>
   <% end %>
 </div>
+
+
+
+
+
+
