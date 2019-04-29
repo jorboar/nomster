@@ -93,7 +93,7 @@ blockquote p {
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  max-height: 350px;
+  max-height: 375px;
   width: 100%;
 }
 
@@ -124,8 +124,9 @@ blockquote p {
 }
 
 .placephoto {
+  border-style: groove;
   max-height: 450px;
-  max-width: 150px;
+  max-width: 250px;
   
 }
 
