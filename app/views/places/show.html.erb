@@ -32,14 +32,16 @@
   <% end %>
 
 
-
+ 
     <% @place.photos.each do |photo| %>
-      <%= image_tag photo.picture, size: "250" %>
-      <div class="clear"></div>
-      <%= photo.caption %>
+      
+    <div class="photoandcap">
+      <%= image_tag photo.picture, :class => "placephoto" %> 
+      <br>
+            <%= photo.caption %>
+    </div>
     <% end %>
-
-
+ 
 
 
       <div class="float-right">
