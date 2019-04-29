@@ -4,7 +4,6 @@
   <br/><br/>
   <p><%= @place.description %></p>
     
-
   <% if @place.latitude.present? && @place.longitude.present? %>
 
         <script>
@@ -53,30 +52,16 @@
       </div>
     
       <br/>
+      <div class="addphoto">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal2">
+          Add a photo
+        </button>
+
+      </div>
     </div>
   
   
-
-
-
-
-
-
-
-
-<div class="col-1 offset-1">
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal2">
-    Add a photo
-  </button>
-
-</div>
-
-
-
-
-
-
 
 
 <div class="clear"></div>
@@ -91,16 +76,6 @@
 </div>
 
 <div class="clear"></div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,12 +106,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
 
 
 
